@@ -8,6 +8,9 @@ Pod::Spec.new do |s|
   s.author       = { "yanzhi.liu" => "karlcool.l@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/karlcool/MASocketRocket.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files        = 'Classes/**/*.{h,m}'
+  s.public_header_files = 'Classes/*.h' 
+  s.ios.frameworks     = 'CFNetwork', 'Security'
+  s.libraries          = 'icucore'
+  
 end
