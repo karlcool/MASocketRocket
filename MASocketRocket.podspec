@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MASocketRocket"
-  s.version      = "0.5.3"
+  s.version      = "0.5.6"
   s.summary      = "为SocketRocket增加双向验证"
   s.description  = "为SocketRocket增加双向验证"
   s.homepage     = "https://github.com/karlcool/MASocketRocket"
